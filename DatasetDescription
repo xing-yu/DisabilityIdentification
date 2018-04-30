@@ -1,0 +1,9 @@
+Dataset Description:
+
+Source: 
+www.reddit.com/r/amputee
+www.reddit.com/r/prosthetics
+
+Data collection:
+
+We used the official API(https://praw.readthedocs.io/en/stable/) provided by Reddit to collect posts, comments, and corresponding metadata. First, we collected all the posts and comments from two amputee-relevant subreddits: /r/amputee and /r/prosthetics. Second, we extracted all the usernames from these posts and comments. Third, we collected all the posts (with all comments in each post) and comments authored by each of the user in the target population. 
